@@ -6,7 +6,7 @@ class Language
 {
     public static function all()
     {
-        $fh = fopen(__DIR__.'/..resources/languages.csv', 'r');
+        $fh = fopen(__DIR__.'/../resources/languages.csv', 'r');
 
         $languages = [];
 
