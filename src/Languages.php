@@ -28,8 +28,8 @@ class Language
 
     private static function getBy(string $field, string $value)
     {
-        foreach(self::all() as $languages) {
-            if ($language->field == $value) {
+        foreach(self::all() as $language) {
+            if ($language->$field == $value) {
                 return $language;
             }
         }
