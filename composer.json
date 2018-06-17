@@ -1,0 +1,17 @@
+{
+    "name": "divineomega/php-languages",
+    "type": "library",
+    "license": "LGPL-3.0-only",
+    "authors": [
+        {
+            "name": "Jordan Hall",
+            "email": "jordan@hall05.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DivineOmega\\Languages\\": "./src/"
+        }
+    },
+    "require": {}
+}
