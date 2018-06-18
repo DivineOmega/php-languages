@@ -1,5 +1,6 @@
 {
     "name": "divineomega/php-languages",
+    "description": "A tiny package to help convert between languages names (such as English, French, German) and various ISO language codes (such as en, fr, de).",
     "type": "library",
     "license": "LGPL-3.0-only",
     "authors": [
