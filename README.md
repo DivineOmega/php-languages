@@ -1,6 +1,6 @@
 # PHP Languages
 
-PHP Languages is a tiny package to help deal convert between languages names (such as English, French, German) and various ISO language codes (such as en, fr, de).
+PHP Languages is a tiny package to help convert between languages names (such as English, French, German) and various ISO language codes (such as en, fr, de).
 
 ## Installation
 
