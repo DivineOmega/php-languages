@@ -37,9 +37,22 @@ class Language
         return null;
     }
 
+    private static function getMultipleBy(string $field, string $value)
+    {
+        $languages = [];
+
+        foreach(self::all() as $language) {
+            if ($language->$field == $value) {
+                $languages[] = $language;
+            }
+        }
+
+        return $languages;
+    }
+
     public static function getByFamily(string $family)
     {
-        return self::getBy('family', $family);
+        return self::getMultipleBy('family', $family);
     }
 
     public static function getByName(string $name)
